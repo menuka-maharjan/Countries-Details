@@ -3,3 +3,11 @@ body {
     background-color: rgba(30, 122, 202, 0.342);
     height: 300vh;
   }
+ /* title */
+#container1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  /* title */
