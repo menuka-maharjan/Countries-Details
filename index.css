@@ -11,3 +11,17 @@ body {
     text-align: center;
   }
   /* title */
+  /* form */
+  input {
+    background-color: rgb(243, 237, 237) !important;
+    color: black !important;
+  }
+  
+  input::placeholder {
+    color: #2a3742 !important;
+  }
+  #inp {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+  }
