@@ -35,3 +35,87 @@ Form.addEventListener("submit", (event) => {
   let translations1 = i.translations.de;
   let flag1 = i.flag;
   let cioc1 = i.cioc;
+  
+  SHOW.innerHTML = `
+  <div class="container111">
+  
+  <div id="flag">
+    <img id="im" src="${flag1}" alt="#" />
+  </div>
+  <br />
+  <br />
+
+  <div id="name">
+    <h1>NAME : ${name1}</h1>
+  </div>
+  <br />
+
+  <div id="capital">
+    <h1>CAPITAL : ${capital1}</h1>
+  </div>
+  <br />
+
+  <div id="region">
+    <h1>REGION : ${region1}</h1>
+  </div>
+  <br />
+
+  <div id="sub-region">
+    <h1>SUB-REGION: ${subregion1}</h1>
+  </div>
+  <br />
+
+  <div id="callingCodes">
+    <h1>callingCodes : ${callingCodes1}</h1>
+  </div>
+  <br />
+
+  <div id="population">
+    <h1>POPULATION : ${population1}</h1>
+  </div>
+  <br />
+
+  <div id="demonym111">
+    <h1>DEMONYM: ${demonym1}</h1>
+  </div>
+  <br />
+
+  <div id="area">
+    <h1>AREA : ${area1}</h1>
+  </div>
+  <br />
+
+  <div id="timezones">
+    <h1>TIME-ZONE: ${timezones1}</h1>
+  </div>
+  <br />
+
+  <div id="borders">
+    <h1>BORDER: ${borders1}</h1>
+  </div>
+  <br />
+
+  <div id="nativeName">
+    <h1>NATIVE-NAME : ${nativeName1}</h1>
+  </div>
+  <br />
+
+  <div id="numericCode">
+    <h1>NUMERIC-CODE : ${numericCode1}</h1>
+  </div>
+  <br />
+
+  <div id="translate">
+    <h1>TRANSLATIONS : ${translations1}</h1>
+  </div>
+  <br />
+
+  <div id="cioc">
+    <h1>CIOC : ${cioc1}</h1>
+  </div>
+  <br />
+ </div> 
+</div>
+
+</div>`;
+};
